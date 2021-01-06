@@ -6,6 +6,7 @@ SmartestChatBot is a quick way to easily make your own Chat Bot with Javascript 
 # Credits
  
 Made by Lebyy_Dev.
+
 ### NPM
 - [SmartestChatBot](https://www.npmjs.com/package/smartestchatbot)
 
