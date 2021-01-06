@@ -15,8 +15,8 @@ client.on("message", async message => {
     }
     message.channel.startTyping();
     if (!message.content) return message.channel.send("Please say something.");
-    smartestchatbot.chat('' + message.content + '', '' + client.user.username + '', 'CoolOwnerName', '' + message.author.id + '').then(reply => {
-      message.channel.send(`> ${message.content} \n <@${message.author.id}> ${reply}`);
+    smartestchatbot.chat({message: message.content, name: client.user.username, owner:"CoolOwnerName", user: message.author.id }).then(reply => {
+    message.channel.send(`> ${message.content} \n <@${message.author.id}> ${reply}`);
     })
     message.channel.stopTyping();
   }
