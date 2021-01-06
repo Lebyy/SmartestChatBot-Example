@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const smartchatbot = require('smartchatbot')
+const smartestchatbot = require('smartestchatbot')
 const client = new Discord.Client();
 client.login("TOKEN");
 client.on("ready", () => {
@@ -15,7 +15,7 @@ client.on("message", async message => {
     }
     message.channel.startTyping();
     if (!message.content) return message.channel.send("Please say something.");
-    smartchatbot.chat('' + message.content + '', '' + client.user.username + '', 'CoolOwnerName', '' + message.author.id + '').then(reply => {
+    smartestchatbot.chat('' + message.content + '', '' + client.user.username + '', 'CoolOwnerName', '' + message.author.id + '').then(reply => {
       message.channel.send(`> ${message.content} \n <@${message.author.id}> ${reply}`);
     })
     message.channel.stopTyping();
