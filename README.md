@@ -1,7 +1,7 @@
 # SmartestChatBot-Example
 
 This is a example repo for the SmartestChatBot package!
-SmartestChatBot is a quick way to easily make your own Chat Bot with Javascript Easily with https://api.affiliateplus.xyz/
+SmartestChatBot is a quick way to easily make your own Chat Bot which can reply in multiple languages!
 
 # Credits
  
