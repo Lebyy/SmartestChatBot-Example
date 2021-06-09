@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "smartestchatbot": "^2.0.0"
+    "smartestchatbot": "^2.0.0",
+    "discord.js": "^12.5.3"
   },
   "devDependencies": {},
   "scripts": {
