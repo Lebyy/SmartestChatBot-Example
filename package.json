@@ -1,10 +1,10 @@
 {
   "name": "SmartChatBot-Example",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "smartestchatbot": "^2.0.0",
+    "smartestchatbot": "^2.0.1",
     "discord.js": "^12.5.3",
     "discord-reply": "^0.1.2"
   },
