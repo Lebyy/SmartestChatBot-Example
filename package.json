@@ -1,18 +1,27 @@
 {
   "name": "SmartChatBot-Example",
-  "version": "1.0.4",
-  "description": "",
+  "version": "2.0.0",
+  "description": "This is a example repo for the SmartestChatBot package! SmartestChatBot is a quick way to easily make your own Chat Bot which can reply in multiple languages!",
   "main": "index.js",
   "dependencies": {
-    "smartestchatbot": "^2.0.1",
-    "discord.js": "^12.5.3",
-    "discord-reply": "^0.1.2"
+    "discord.js": "^13.1.0",
+    "smartestchatbot": "^2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node": "^16.6.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lebyy/SmartestChatBot-Example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lebyy/SmartestChatBot-Example/issues"
+  },
+  "homepage": "https://github.com/Lebyy/SmartestChatBot-Example#readme"
 }
