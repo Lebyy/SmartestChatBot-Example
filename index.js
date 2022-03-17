@@ -19,7 +19,7 @@ client.on("messageCreate", (message) => {
     }
     message.channel.sendTyping();
     if (!message.content) return message.reply({ content: "Please say something.", allowedMentions: { repliedUser: true }});
-    scb.chat({message: message.content, name: client.user.username, owner:"CoolOwnerName", user: message.author.id, language:"en"}).then(reply => { 
+    scb.chat({message: message.content, name: client.user.username, master:"CoolOwnerName", user: message.author.id}, "en").then(reply => { 
     message.reply({ content: reply, allowedMentions: { repliedUser: true }});
     })
     message.channel.sendTyping();
