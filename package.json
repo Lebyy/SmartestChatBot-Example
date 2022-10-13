@@ -4,8 +4,8 @@
   "description": "This is a example repo for the SmartestChatBot package! SmartestChatBot is a quick way to easily make your own Chat Bot which can reply in multiple languages!",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^13.1.0",
-    "smartestchatbot": "^2.0.1"
+    "discord.js": "^14.6.0",
+    "smartestchatbot": "^3.0.0"
   },
   "devDependencies": {
     "node": "^16.6.1"
